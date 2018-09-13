@@ -1,0 +1,184 @@
+ *** VERSION ***
+ BETA-LNS v8.06 /04/02/14/ 2016/09/28 11:38:0                                    
+ *** AUTHOR ***
+                                                                                
+ *** TITRE ***
+ ThomX-hexagone tune=3.17/1.64 chro=0/0  r56=-0.22  LDff=83.5mm + sext oct deca 
+ *** LIST OF ELEMENTS ***
+    58
+ SD0           SD 0.1000000E+00 0.0000000E+00
+ SD1           SD 0.1300000E+00 0.0000000E+00
+ SD1S1         SD 0.2500000E+00 0.0000000E+00
+ SD1S          SD 0.7500000E-01 0.0000000E+00
+ QP1           QP 0.7500000E-01 -.4286121E+01 0.1000000E+00 0.0000000E+00
+ SD2           SD 0.2100000E+00 0.0000000E+00
+ QP2           QP 0.7500000E-01 0.9192058E+01 0.1000000E+00 0.0000000E+00
+ SD3           SD 0.2350000E+00 0.0000000E+00
+ SD31          SD 0.7537500E+00 0.0000000E+00
+ COE           CO 0.3320000E-01 0.3520000E+00 0.8350000E-01 0.0000000E+00 0.0000000E+00
+ DIP           DI 0.1963000E+00 0.3520000E+00 0.0000000E+00 0.0000000E+00
+ COS           CO 0.3320000E-01 0.3520000E+00 0.8350000E-01 0.0000000E+00 0.0000000E+00
+ QP3           QP 0.7500000E-01 -.1738273E+02 0.1000000E+00 0.0000000E+00
+ QP4           QP 0.7500000E-01 0.1584471E+02 0.1000000E+00 0.0000000E+00
+ QP31          QP 0.7500000E-01 -.1088378E+02 0.1000000E+00 0.0000000E+00
+ QP41          QP 0.7500000E-01 0.7322913E+01 0.1000000E+00 0.0000000E+00
+ SD4           SD 0.1500000E+00 0.0000000E+00
+ SD5           SD 0.8000000E+00 0.0000000E+00
+ SD3S          SD 0.7500000E-01 0.0000000E+00
+ SD3S1         SD 0.1350000E+00 0.0000000E+00
+ SD3S2         SD 0.1250000E+00 0.0000000E+00
+ SX1           SX 0.1000000E-05 -.5792852E+07 0.0000000E+00 0.0000000E+00
+ SX2           SX 0.1000000E-05 0.2376156E+07 0.0000000E+00 0.0000000E+00
+ SX3           SX 0.1000000E-05 -.2945760E+07 0.0000000E+00 0.0000000E+00
+ SXDII         SX 0.1000000E-05 0.8000000E+06 0.0000000E+00 0.0000000E+00
+ SXDIE         SX 0.1000000E-05 -.2000000E+07 0.0000000E+00 0.0000000E+00
+ OCDII         LD 0.8000000E+00 0.8000000E+01 0.0000000E+00 0.0000000E+00
+ OCDIE         LD -.4000000E+01 0.8000000E+01 0.0000000E+00 0.0000000E+00
+ DCDII         LD 0.8000000E+03 0.1000000E+02 0.0000000E+00 0.0000000E+00
+ DCDIE         LD -.2360000E+04 0.1000000E+02 0.0000000E+00 0.0000000E+00
+ LD6QP1        LD 0.8084248E+04 0.1200000E+02 0.0000000E+00 0.0000000E+00
+ LD10QP1       LD 0.5834124E+11 0.2000000E+02 0.0000000E+00 0.0000000E+00
+ LD14QP1       LD 0.3890305E+18 0.2800000E+02 0.0000000E+00 0.0000000E+00
+ LD6QP2        LD -.1733756E+05 0.1200000E+02 0.0000000E+00 0.0000000E+00
+ LD10QP2       LD -.1251192E+12 0.2000000E+02 0.0000000E+00 0.0000000E+00
+ LD14QP2       LD -.8343187E+18 0.2800000E+02 0.0000000E+00 0.0000000E+00
+ LD6QP3        LD 0.3278636E+05 0.1200000E+02 0.0000000E+00 0.0000000E+00
+ LD10QP3       LD 0.2366079E+12 0.2000000E+02 0.0000000E+00 0.0000000E+00
+ LD14QP3       LD 0.1577747E+19 0.2800000E+02 0.0000000E+00 0.0000000E+00
+ LD6QP4        LD -.2988543E+05 0.1200000E+02 0.0000000E+00 0.0000000E+00
+ LD10QP4       LD -.2156729E+12 0.2000000E+02 0.0000000E+00 0.0000000E+00
+ LD14QP4       LD -.1438148E+19 0.2800000E+02 0.0000000E+00 0.0000000E+00
+ LD6QP31       LD 0.2052839E+05 0.1200000E+02 0.0000000E+00 0.0000000E+00
+ LD10QP31      LD 0.1481464E+12 0.2000000E+02 0.0000000E+00 0.0000000E+00
+ LD14QP31      LD 0.9878682E+18 0.2800000E+02 0.0000000E+00 0.0000000E+00
+ LD6QP41       LD -.1381208E+05 0.1200000E+02 0.0000000E+00 0.0000000E+00
+ LD10QP41      LD -.9967703E+11 0.2000000E+02 0.0000000E+00 0.0000000E+00
+ LD14QP41      LD -.6646654E+18 0.2800000E+02 0.0000000E+00 0.0000000E+00
+ LD9SX1        LD 0.3620532E+09 0.1800000E+02 0.0000000E+00 0.0000000E+00
+ LD15SX1       LD 0.1272843E+19 0.3000000E+02 0.0000000E+00 0.0000000E+00
+ LD9SX2        LD -.1485097E+09 0.1800000E+02 0.0000000E+00 0.0000000E+00
+ LD15SX2       LD -.5221046E+18 0.3000000E+02 0.0000000E+00 0.0000000E+00
+ LD9SX3        LD 0.1841100E+09 0.1800000E+02 0.0000000E+00 0.0000000E+00
+ LD15SX3       LD 0.6472617E+18 0.3000000E+02 0.0000000E+00 0.0000000E+00
+ LD9SXDII      LD -.5000000E+08 0.1800000E+02 0.0000000E+00 0.0000000E+00
+ LD15SXDII     LD -.1757812E+18 0.3000000E+02 0.0000000E+00 0.0000000E+00
+ LD9SXDIE      LD 0.1250000E+09 0.1800000E+02 0.0000000E+00 0.0000000E+00
+ LD15SXDIE     LD 0.4394531E+18 0.3000000E+02 0.0000000E+00 0.0000000E+00
+ *** STRUCTURE ***
+   428
+ SD5           QP1           LD6QP1        LD10QP1       LD14QP1       QP1          
+ SD2           QP2           LD6QP2        LD10QP2       LD14QP2       QP2          
+ SD31          SXDIE         LD9SXDIE      LD15SXDIE     DCDIE         OCDIE        
+ COE           DIP           SXDII         LD9SXDII      LD15SXDII     DCDII        
+ DIP           SXDII         LD9SXDII      LD15SXDII     DCDII         DIP          
+ SXDII         LD9SXDII      LD15SXDII     DCDII         DIP           COS          
+ OCDIE         SXDIE         LD9SXDIE      LD15SXDIE     DCDIE         SD3S2        
+ SX1           LD9SX1        LD15SX1       SD3S          QP31          LD6QP31      
+ LD10QP31      LD14QP31      QP31          SD3S          SX3           LD9SX3       
+ LD15SX3       SD3S1         QP41          LD6QP41       LD10QP41      LD14QP41     
+ QP41          SD1S1         SX2           LD9SX2        LD15SX2       SD1S         
+ QP4           LD6QP4        LD10QP4       LD14QP4       QP4           SD2          
+ QP3           LD6QP3        LD10QP3       LD14QP3       QP3           SD3          
+ SXDIE         LD9SXDIE      LD15SXDIE     DCDIE         OCDIE         COE          
+ DIP           SXDII         LD9SXDII      LD15SXDII     DCDII         DIP          
+ SXDII         LD9SXDII      LD15SXDII     DCDII         DIP           SXDII        
+ LD9SXDII      LD15SXDII     DCDII         DIP           COS           OCDIE        
+ SXDIE         LD9SXDIE      LD15SXDIE     DCDIE         SD0           SD0          
+ SXDIE         LD9SXDIE      LD15SXDIE     DCDIE         OCDIE         COE          
+ DIP           SXDII         LD9SXDII      LD15SXDII     DCDII         DIP          
+ SXDII         LD9SXDII      LD15SXDII     DCDII         DIP           SXDII        
+ LD9SXDII      LD15SXDII     DCDII         DIP           COS           OCDIE        
+ SXDIE         LD9SXDIE      LD15SXDIE     DCDIE         SD3           QP3          
+ LD6QP3        LD10QP3       LD14QP3       QP3           SD2           QP4          
+ LD6QP4        LD10QP4       LD14QP4       QP4           SD1S          SX2          
+ LD9SX2        LD15SX2       SD1S1         QP41          LD6QP41       LD10QP41     
+ LD14QP41      QP41          SD3S1         SX3           LD9SX3        LD15SX3      
+ SD3S          QP31          LD6QP31       LD10QP31      LD14QP31      QP31         
+ SD3S          SX1           LD9SX1        LD15SX1       SD3S2         SXDIE        
+ LD9SXDIE      LD15SXDIE     DCDIE         OCDIE         COE           DIP          
+ SXDII         LD9SXDII      LD15SXDII     DCDII         DIP           SXDII        
+ LD9SXDII      LD15SXDII     DCDII         DIP           SXDII         LD9SXDII     
+ LD15SXDII     DCDII         DIP           COS           OCDIE         SXDIE        
+ LD9SXDIE      LD15SXDIE     DCDIE         SD31          QP2           LD6QP2       
+ LD10QP2       LD14QP2       QP2           SD2           QP1           LD6QP1       
+ LD10QP1       LD14QP1       QP1           SD5           SD5           QP1          
+ LD6QP1        LD10QP1       LD14QP1       QP1           SD2           QP2          
+ LD6QP2        LD10QP2       LD14QP2       QP2           SD31          SXDIE        
+ LD9SXDIE      LD15SXDIE     DCDIE         OCDIE         COE           DIP          
+ SXDII         LD9SXDII      LD15SXDII     DCDII         DIP           SXDII        
+ LD9SXDII      LD15SXDII     DCDII         DIP           SXDII         LD9SXDII     
+ LD15SXDII     DCDII         DIP           COS           OCDIE         SXDIE        
+ LD9SXDIE      LD15SXDIE     DCDIE         SD3S2         SX1           LD9SX1       
+ LD15SX1       SD3S          QP31          LD6QP31       LD10QP31      LD14QP31     
+ QP31          SD3S          SX3           LD9SX3        LD15SX3       SD3S1        
+ QP41          LD6QP41       LD10QP41      LD14QP41      QP41          SD1S1        
+ SX2           LD9SX2        LD15SX2       SD1S          QP4           LD6QP4       
+ LD10QP4       LD14QP4       QP4           SD2           QP3           LD6QP3       
+ LD10QP3       LD14QP3       QP3           SD3           SXDIE         LD9SXDIE     
+ LD15SXDIE     DCDIE         OCDIE         COE           DIP           SXDII        
+ LD9SXDII      LD15SXDII     DCDII         DIP           SXDII         LD9SXDII     
+ LD15SXDII     DCDII         DIP           SXDII         LD9SXDII      LD15SXDII    
+ DCDII         DIP           COS           OCDIE         SXDIE         LD9SXDIE     
+ LD15SXDIE     DCDIE         SD0           SD0           SXDIE         LD9SXDIE     
+ LD15SXDIE     DCDIE         OCDIE         COE           DIP           SXDII        
+ LD9SXDII      LD15SXDII     DCDII         DIP           SXDII         LD9SXDII     
+ LD15SXDII     DCDII         DIP           SXDII         LD9SXDII      LD15SXDII    
+ DCDII         DIP           COS           OCDIE         SXDIE         LD9SXDIE     
+ LD15SXDIE     DCDIE         SD3           QP3           LD6QP3        LD10QP3      
+ LD14QP3       QP3           SD2           QP4           LD6QP4        LD10QP4      
+ LD14QP4       QP4           SD1S          SX2           LD9SX2        LD15SX2      
+ SD1S1         QP41          LD6QP41       LD10QP41      LD14QP41      QP41         
+ SD3S1         SX3           LD9SX3        LD15SX3       SD3S          QP31         
+ LD6QP31       LD10QP31      LD14QP31      QP31          SD3S          SX1          
+ LD9SX1        LD15SX1       SD3S2         SXDIE         LD9SXDIE      LD15SXDIE    
+ DCDIE         OCDIE         COE           DIP           SXDII         LD9SXDII     
+ LD15SXDII     DCDII         DIP           SXDII         LD9SXDII      LD15SXDII    
+ DCDII         DIP           SXDII         LD9SXDII      LD15SXDII     DCDII        
+ DIP           COS           OCDIE         SXDIE         LD9SXDIE      LD15SXDIE    
+ DCDIE         SD31          QP2           LD6QP2        LD10QP2       LD14QP2      
+ QP2           SD2           QP1           LD6QP1        LD10QP1       LD14QP1      
+ QP1           SD5          
+ *** PERIOD ***
+      1
+ *** OPTION ***
+ BETA
+ *** BEAM-MATRIX ***
+  4.0440424083E+00
+  1.0160137147E-15  2.4727732774E-01
+  0.0000000000E+00  0.0000000000E+00  2.5131921713E+00
+  0.0000000000E+00  0.0000000000E+00 -5.7701642421E-16  3.9790033226E-01
+  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00  0.0000000000E+00
+ *** DISPERSION ***
+  2.7317580E-02  1.5872720E-16
+  0.0000000E+00  0.0000000E+00
+ *** PARTICLE TYPE ***
+ E 
+ *** ENERGIE CINETIQUE (MeV) ***
+ 5.0000000E+01
+  0.51100343    
+ *** EMITTANCE ***
+ 1.2340656E-09  0.0000000E+00  0.0000000E+00
+ *** CHROMATIC FUNCTIONS ***
+ 0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ 0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ *** PARAMETERS OF FIT ***
+ *** VARIABLES ***
+    6
+ QP1              2    0 0.00000E+00  0
+ QP2              2    0 0.00000E+00  0
+ QP3              2    0 0.00000E+00  0
+ QP4              2    0 0.00000E+00  0
+ QP41             2    0 0.00000E+00  0
+ QP31             2    0 0.00000E+00  0
+ *** CONSTRAINTS ***
+    8
+    6     1 0                0                0.1000000E-01 0.10000E-02   0
+    0     3 3                12               0.9000000E+01 0.10000E+01   0
+    0     1 1                17               0.9000000E+01 0.00000E+00   0
+    0     1 1                27               0.1000000E+00 0.10000E+00   0
+    0     3 3                27               0.1000000E+00 0.10000E-01   0
+    6     1 0                27               0.0000000E+00 0.10000E-01   0
+    2     3 START            108              0.6400000E+00 0.10000E-01   0
+    2     1 START            108              0.1750000E+00 0.10000E-01   0
+ *** ENDFILE ***
