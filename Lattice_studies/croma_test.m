@@ -1,10 +1,10 @@
-
-global GLOBVAL 
-GLOBVAL.E0=50E6;
-GLOBVAL.LatticeFile='test';
+% 
+    global GLOBVAL
+    GLOBVAL.E0=50E6;
+    GLOBVAL.LatticeFile='test';
 
 dir ='/Users/ichaikov/Documents/MATLAB/thomx-mml/machine/THOMX/StorageRing/Lattices/';
-RING = ThomX_017_064_r56_04_chro11;%ThomX_017_064_r56_02_chro00; 
+RING = ThomX_017_064_r56_02_chro00; 
 %RING = ThomX_017_064_r56_02_chro00_multip_AT2();
 %RING = ThomX_016_058_r56_02_chro22;
 %RING = ThomX_017_064_r56_02_chro00_AT2;
@@ -15,12 +15,10 @@ RING = ThomX_017_064_r56_04_chro11;%ThomX_017_064_r56_02_chro00;
 %     'PassMethod','QuadMPoleFringePass' );
 % RING = ring_quadFF;
 % 
-% RING=scalesext(RING,'SX1',-0.1);
-%  RING=fitchrom_alex(RING,[1.0 -1.0],'SX2' ,'SX3' );
+% RING=scalesext(RING,'SX1',0.);
+% RING=fitchrom_alex(RING,[0.0 -0.0],'SX2' ,'SX3' );
 
-RING2=atcavityoff(RING);
-
-%atplot(RING)
+atplot(RING)
 %%
 %L =   findspos(RING,length(RING)+1)
 % atplot(RING)
@@ -102,6 +100,15 @@ BareRING = atsetfieldvalues(BareRING,findcells(BareRING,'FamName','SX2'), 'Polyn
 BareRING = atsetfieldvalues(BareRING,findcells(BareRING,'FamName','SX3'), 'PolynomB',{1,3},0);
 
 RING = BareRING;
+%%
+
+dpp = 0;
+[lindata,tune,chrom]=atlinopt(RING,dpp,1:length(RING)+1); 
+dispersion=cat(2,lindata.Dispersion)';
+beta=cat(1,lindata.beta);
+mu=cat(1,lindata.mu);
+spos=cat(1,lindata.SPos);
+
 %%
 
 fprintf('#########################" \n')
@@ -194,20 +201,13 @@ bpipe_limit = rx_bpipe/dispxmax;
 
 [xmaxlist,dplist] = atdynap_om(RING,(0:2:38)*1e-3,1e-12,(-3:0.2:3)*1e-2,500); 
 
-save test xmaxlist dplist
-
-%%
-[xmaxlist2,dplist2] = atdynap_om(RING2,(0:2:38)*1e-3,1e-12,(-3:0.2:3)*1e-2,500); 
-
-
 %%
  
 %figure('units','normalized','position',[0.3 0.3 0.45 0.35])
 figure(13);
 set(gcf,'color','w')
-plot(dplist*1e2,xmaxlist*1e3,'-r','LineWidth',2,'DisplayName', 'DA OFF-momentum with RF');
+plot(dplist*1e2,xmaxlist*1e3,'-r','LineWidth',2,'DisplayName', 'DA OFF-momentum');
 hold on
-plot(dplist2*1e2,xmaxlist2*1e3,'--b','LineWidth',2,'DisplayName', 'DA OFF-momentum without RF');
 plot([0 bpipe_limit*1e2], [rx_bpipe_scaled*1e3 0],'k-','DisplayName', 'Scaled vacuum chamber')
 plot([0 -bpipe_limit*1e2], [rx_bpipe_scaled*1e3 0],'k-','HandleVisibility','off')
 hold off
@@ -225,8 +225,6 @@ set(u,'FontSize',14)
 %%
 
 [zmaxlist,dplist] = atdynapz_om(RING,1e-12,(0:1:20)*1e-3,(-3:0.2:3)*1e-2,500);
-
-%%
 
 figure(11);
 set(gcf,'color','w')

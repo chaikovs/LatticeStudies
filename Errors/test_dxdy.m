@@ -29,7 +29,7 @@ ringerr=atsetshift(ring,indd,dx,dy);
 
 % plots
 figure('units','normalized','position',[0.3 0.3 0.45 0.35])
-atplot(ring,'comment',[],@plClosedOrbit)
+atplot(THERING,'comment',[],@plClosedOrbit)
 %saveas(gca,'OrbitNoErr.fig')
 %export_fig('OrbitNoErr.jpg','-r300')
 

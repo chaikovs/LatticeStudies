@@ -60,7 +60,7 @@ set(gca,'FontSize',18)
 xlabel('s - position [m]');
 linkaxes([h1 h2],'x')
 set([h1 h2],'XGrid','On','YGrid','On');
-print('thomx_betatron_phase_lat.png','-dpng','-r300')
+%print('thomx_betatron_phase_lat.png','-dpng','-r300')
 
 %% Optics 1/4
 
